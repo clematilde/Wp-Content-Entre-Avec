@@ -6,6 +6,8 @@ if ( ! defined( 'ABSPATH' ) )
 /**
  * Cookie Notice Modules Contact Form 7 class.
  *
+ * Compatibility since: 5.1.0 (recaptcha v3 only)
+ *
  * @class Cookie_Notice_Modules_ContactForm7
  */
 class Cookie_Notice_Modules_ContactForm7 {
@@ -39,7 +41,7 @@ class Cookie_Notice_Modules_ContactForm7 {
 			COOKIE_NOTICE_URL . '/includes/modules/contact-form-7/recaptcha.js',
 			[
 				'google-recaptcha',
-				'wp-polyfill',
+				'wp-polyfill'
 			],
 			WPCF7_VERSION,
 			true
