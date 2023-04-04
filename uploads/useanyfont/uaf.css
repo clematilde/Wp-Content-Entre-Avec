@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'gillsans';
+					src: url('/wordpressclematilte/wp-content/uploads/useanyfont/5895gillsans.woff2') format('woff2'),
+						url('/wordpressclematilte/wp-content/uploads/useanyfont/5895gillsans.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.gillsans{font-family: 'gillsans' !important;}
+
+						h1, h2, h3, h4, h5, h6, .site-title, .site-description, body, p, blockquote, a, strong, b, em, .menu-primary-test-container li a, .menu-primary-test-container li span, #menu-primary-test li a, #menu-primary-test li span{
+					font-family: 'gillsans' !important;
+				}
+		
